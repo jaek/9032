@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\Debug\BinaryConversion.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>BinaryConversion.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>BinaryConversion.map</FILE>
+  <FILE>BinaryConversion.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>27</LINE></main>
+  <firstDigitHex><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>34</LINE></firstDigitHex>
+  <firstDigitDec><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>37</LINE></firstDigitDec>
+  <hexadecimal><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>45</LINE></hexadecimal>
+  <decimal><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>50</LINE></decimal>
+  <hex_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>55</LINE></hex_end>
+  <secondDigitHex><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>63</LINE></secondDigitHex>
+  <secondDigitDec><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>66</LINE></secondDigitDec>
+  <returnResult><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BinaryConversion\BinaryConversion\main.asm</FILE><LINE>73</LINE></returnResult>
+ </LABELS>
+</ASSEMBLER_INFO>
