@@ -22,7 +22,10 @@
   <FILE>recursive_gcd.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>22</LINE></main>
-  <gcd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>27</LINE></gcd>
+  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>41</LINE></main>
+  <gcd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>49</LINE></gcd>
+  <case_2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>96</LINE></case_2>
+  <case_1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>86</LINE></case_1>
+  <endMod><FILE>C:\Users\user\Documents\Atmel Studio\7.0\recursive_gcd\recursive_gcd\main.asm</FILE><LINE>92</LINE></endMod>
  </LABELS>
 </ASSEMBLER_INFO>
