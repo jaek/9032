@@ -2,9 +2,15 @@
 ; recursive_gcd.asm
 ;
 ; Created: 9/10/2019 3:05:30 AM
-; Author : user
+; Author : Jacob Burns z3332718
 ;
 .include "m2560def.inc"
+
+.def lo_a=r16
+.def hi_a=r17
+.def lo_b=r18
+.def hi_b=r19
+.def zero=r_20
 
 ; modulo
 ; a(@0, @1) % b(@2, @3)
@@ -19,23 +25,39 @@
 	brge loop
 .endmacro
 
-.def hi_a=r16
-.def lo_a=r17
-.def hi_b=r18
-.def lo_b=r19
+main:
+	clr zero
+	rcall gcd
 
-ldi hi_a, 0x00
-ldi lo_a, 0x11
-ldi hi_b, 0x00
-ldi lo_b, 0x03 
+gcd: ;gcd(int_16 a, int_16 b)
 
-mod hi_a, lo_a, hi_b, lo_b
+	;prologue
+	push YL
+	push YH		;stack frame pointers saved to stack
 
-ldi hi_a, 0x00
-ldi lo_a, 0x06
-ldi hi_b, 0x00
-ldi lo_b, 0x03
+	in YL, SPL	;set Y to SP - new stack top
+	in TH, SPH
 
-mod hi_a, lo_a, hi_b, lo_b 
-nop
+	sbiw Y, 6	;reserve enough space for 3 int_16
+
+	out SPL, YL ;update SP to reflect new stack top Y
+	out SPH, YH
+	
+	;load our args into stack
+	std Y+1, lo_a
+	std Y+2, hi_a
+	std Y+3, lo_b
+	std Y+4, hi_b
+	;end prologue
+
+	;check b != 0
+	cp lo_b, zero
+	cpc hi_b, zero
+	breq finished
+
+	finsished:
+		rjump finished
+	
+	
+
 
